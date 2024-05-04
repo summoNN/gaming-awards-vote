@@ -1,5 +1,6 @@
 import puppeteer from "puppeteer";
-require("dotenv").config();
+import dotenv from "dotenv";
+dotenv.config();
 
 export const getVotes = async (id) => {
   const browser = await puppeteer.launch({
