@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pnpm": "^9.0.6",
+    "puppeteer": "^22.7.1"
+  },
+  "devDependencies": {
+    "wrangler": "^3.53.1"
+  }
+}
